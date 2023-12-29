@@ -11,6 +11,9 @@ gem 'webpacker', '~> 5.0'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.7'
 gem 'bootsnap', '>= 1.4.4', require: false
+gem 'react-rails', '~> 2.6', '>= 2.6.1'
+gem 'jsbundling-rails'
+gem 'cssbundling-rails'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
